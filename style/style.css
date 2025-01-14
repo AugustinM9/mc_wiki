@@ -1,0 +1,165 @@
+/* Polices */
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/font/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Minecraft;
+    src: url(../assets/font/Minecraft-Regular.otf);
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: Minecraft, Montserrat, sans-serif;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Barre de navigation */
+
+.nav {
+    background: url(../assets/img/back_nav.webp) center/cover;
+    padding: 10px;
+    border-radius: 0 0 35px 35px;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 8px 20px 3px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav ul, .nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+    padding: 5px 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+#accueil, #m1-21-2, #m1-21-4 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+/* Pages en général */
+
+main {
+    padding: 20px;
+    margin: 145px 20px 30px 20px;
+    border-radius: 30px;
+    background: #f0eeee;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Accueil */
+
+#Accueil-1 {
+    font-size: 19px;
+    margin: 55px;
+    text-align: center;
+}
+
+#Accueil-2 {
+    margin: 70px 10px 10px 10px;
+}
+
+.mosaique ul, .mosaique li {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.mosaique li {
+    margin: 30px;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50px;
+    position: relative;
+}
+
+.mosaique ul {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.mosaique a {
+    color: white;
+    text-decoration: none;
+}
+
+.mosaique img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.mosaique p {
+    position: absolute;
+    bottom: 4px;
+    right: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black;
+}
+
+.mosaique img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
