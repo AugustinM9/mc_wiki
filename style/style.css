@@ -92,6 +92,15 @@ main {
     min-height: 500px;
 }
 
+.titre-central {
+    font-size: 60px;
+    text-align: center;
+}
+
+.titre-page {
+    margin: 50px;
+}
+
 
 
 
