@@ -141,6 +141,11 @@ main {
     margin: 3px 0 3px 30px;
 }
 
+.li {
+    font-size: 18px;
+    margin: 3px 0 3px 30px;
+}
+
 a {
     color: #000000;
     text-decoration: none;
@@ -152,6 +157,27 @@ a:hover {
     transition: font-size 0.3s ease;
     font-size: 25px;
 }
+
+.mosaique2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px;
+}
+
+.mosaique2 img {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.mosaique2 p {
+    text-align: center;
+}
+
+
+
+
+
 
 
 
