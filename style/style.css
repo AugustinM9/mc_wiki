@@ -121,6 +121,17 @@ main {
     border-radius: 20px;
 }
 
+.image {
+    display: block;
+    margin: 30px auto;
+}
+
+.pti-logo {
+    display: block;
+    margin: 30px auto;
+    height: 100px;
+}
+
 .gros-li {
     font-size: 20px;
 }
