@@ -83,11 +83,28 @@ h1 {
 
 .nav-bas a {
     text-decoration: none;
-
+    margin: 0;
 }
 
 .nav-bas li {
-    margin: 30px 30px;
+    margin: 15px 30px;
+}
+
+.nav-bas img {
+    width: 12px;
+    height: auto;
+}
+
+.nav-bas {
+    background: #f0eeee;
+    border-radius: 35px;
+    box-shadow: 0px 8px 20px 3px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    margin: 20px auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
