@@ -84,10 +84,13 @@ h1 {
 .nav-bas a {
     text-decoration: none;
     margin: 0;
+    
 }
 
 .nav-bas li {
     margin: 15px 30px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-bas img {
