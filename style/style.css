@@ -183,6 +183,11 @@ main {
     margin: 20px 30px 3px 30px;
 }
 
+.li2 {
+    font-size: 18px;
+    margin: 20px 30px 3px 80px;
+}
+
 a {
     color: #000000;
     text-decoration: none;
@@ -218,6 +223,13 @@ a:hover {
 .bleu {
     color: #0059ff;
     text-decoration: underline;
+}
+
+.nav-pages {
+    display: block;
+    height: 158px;
+    margin-top: -158px;
+    visibility: hidden;
 }
 
 
