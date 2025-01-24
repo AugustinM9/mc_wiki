@@ -73,6 +73,23 @@ h1 {
     text-decoration: underline;
 }
 
+.nav-bas ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav-bas a {
+    text-decoration: none;
+
+}
+
+.nav-bas li {
+    margin: 30px 30px;
+}
+
 
 
 
@@ -86,19 +103,22 @@ h1 {
 
 main {
     padding: 20px;
-    margin: 145px 20px 30px 20px;
+    margin: 145px 20px 0px 20px;
     border-radius: 30px;
     background: #f0eeee;
     min-height: 500px;
 }
 
-.titre-central {
-    font-size: 60px;
+.titre-central {    
     text-align: center;
 }
 
-.titre-page {
+.titre-marge {
     margin: 50px;
+}
+
+.titre-page {
+    font-size: 60px;
 }
 
 .boite {
@@ -143,7 +163,7 @@ main {
 
 .li {
     font-size: 18px;
-    margin: 3px 0 3px 30px;
+    margin: 20px 30px 3px 30px;
 }
 
 a {
@@ -176,6 +196,11 @@ a:hover {
 
 .centre {
     text-align: center;
+}
+
+.bleu {
+    color: #0059ff;
+    text-decoration: underline;
 }
 
 
