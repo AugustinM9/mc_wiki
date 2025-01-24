@@ -141,6 +141,14 @@ main {
     font-size: 60px;
 }
 
+.para-marge {
+    margin: 30px;
+}
+
+.taille-para {
+    font-size: 20px;
+}
+
 .boite {
     margin: 20px;
     padding: 20px;
