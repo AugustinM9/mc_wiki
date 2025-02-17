@@ -234,6 +234,8 @@ a:hover {
     width: 30%;
     height: auto;
     margin: 0 auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
 }
 
 .mosaique2 p {
