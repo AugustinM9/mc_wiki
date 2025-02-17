@@ -179,6 +179,14 @@ main {
     margin: 30px auto;
 }
 
+.image2 {
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+}
+
 .pti-logo {
     display: block;
     margin: 30px auto;
@@ -234,13 +242,15 @@ a:hover {
 
 .mosaique3 {
     display: grid;
-    grid-template-columns: 33% 33%;
+    grid-template-columns: 33% 33% 33%;
     margin: 30px;
 }
 
 .mosaique3 img {
-    width: 30%;
+    width: 100%;
     height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
     margin: 0 auto;
 }
 
@@ -265,6 +275,11 @@ a:hover {
     height: 158px;
     margin-top: -158px;
     visibility: hidden;
+}
+
+.content {
+    font-size: 18px;
+    margin: 20px 30px;
 }
 
 
