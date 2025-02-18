@@ -231,7 +231,7 @@ a:hover {
 }
 
 .mosaique2 img {
-    width: 50%;
+    width: 35%;
     height: auto;
     margin: 0 auto;
     aspect-ratio: 1 / 1;
@@ -249,7 +249,7 @@ a:hover {
 }
 
 .mosaique3 img {
-    width: 100%;
+    width: 50%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: contain;
@@ -257,6 +257,24 @@ a:hover {
 }
 
 .mosaique3 p {
+    text-align: center;
+}
+
+.mosaique3gros {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 30px;
+}
+
+.mosaique3gros img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.mosaique3gros p {
     text-align: center;
 }
 
